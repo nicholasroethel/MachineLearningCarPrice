@@ -4,7 +4,7 @@ This repository contains a series of Python programs that use machine learning t
 This project was a class assignment for ECE 470 at UVic. The project included the following questions:
 
 The data set used can be found here:
-https://www.kaggle.com/austinreese/craigslist-carstrucksdata/downloads/craigslist-carstrucks-data.zip/7 .
+https://www.kaggle.com/austinreese/craigslist-carstrucksdata/downloads/craigslist-carstrucks-data.zip/7 . 
 
 There are 2 spreadsheets in the dataset, but “craigslistVehiclesFull.csv “ was used and was renamed to "craigslistVehiclesFull.csv". Please note, this file was too large to be provided in the repository. 
 
