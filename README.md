@@ -1,34 +1,23 @@
 # MachineLearningCarPrice
 This repository contains a series of Python programs that use machine learning techniques to predict the price of a used car on craigslist. 
 
-This project was a class assignment for ECE 470 at UVic. The project included the following questions:
+This project was a class assignment for ECE 470 at UVic. The data set used can be found here:
+https://www.kaggle.com/austinreese/craigslist-carstrucks-data/downloads/craigslist-carstrucks-data.zip/7 . There are 2 spreadsheets in the dataset, but “craigslistVehiclesFull.csv “ was used and was renamed to "craigslistVehiclesFull.csv". Please note, this file was too large to be provided in the repository. 
 
-The data set used can be found here:
-https://www.kaggle.com/austinreese/craigslist-carstrucks-data/downloads/craigslist-carstrucks-data.zip/7 . 
+The project included the following questions:
 
-There are 2 spreadsheets in the dataset, but “craigslistVehiclesFull.csv “ was used and was renamed to "craigslistVehiclesFull.csv". Please note, this file was too large to be provided in the repository. 
+(a)Extract the listings only made in Los Angeles
 
-The dataset consists of all cities in the United States. We want to predict a
-used car price only in Los Angeles.
+(b)Reduce the number of attributes to 3, choosing the 3 attrbibutes that effect the price the most
 
-Please execute following steps:
+(c)Remove all lost data and outliers
 
-(a)Extract Los Angeles information
+(d)Randomly shuffle the dataset and split it into a 80/20 training/test split
 
-(b)Reduce the number of attributes to those which are more important in
-price prediction (has the most variance with respect to price)
+(e)Train a decision tree to predict a used car price using your favorite machine learning packages and algorithms
 
-(c)Deal with lost data and outliners (Data cleaning)
+(f)Report the training performance witg 10-fold cross validation
 
-(d)Shuffle the dataset and split it into a training set and test set (e.g. 80%
-training 20% test)
-
-(e)Use your favourite machine learning language and packages and train
-a decision tree to predict a used car price. Be aware of overfitting and
-prune your tree if needed.
-
-(f) Report the training performance using 10-fold cross validation.
-
-(g)Report the testing performance.
+(g)Show the testing performance
 
 Please view "CraigslistCars.pdf" for my results. 
